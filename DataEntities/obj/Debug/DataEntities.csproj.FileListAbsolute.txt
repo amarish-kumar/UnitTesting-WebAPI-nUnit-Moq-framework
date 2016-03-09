@@ -1,0 +1,4 @@
+c:\users\leodeveloper\documents\visual studio 2015\Projects\BookingTek\DataEntities\bin\Debug\DataEntities.dll
+c:\users\leodeveloper\documents\visual studio 2015\Projects\BookingTek\DataEntities\bin\Debug\DataEntities.pdb
+c:\users\leodeveloper\documents\visual studio 2015\Projects\BookingTek\DataEntities\obj\Debug\DataEntities.dll
+c:\users\leodeveloper\documents\visual studio 2015\Projects\BookingTek\DataEntities\obj\Debug\DataEntities.pdb

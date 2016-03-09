@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+<br /><br />
+Type Ibis for results <br />
+<br />
+<table>
+    <tr>
+        <td>Search</td>
+        <td><input type="text" id="search_text" /></td>
+        <td><input type="button" id="search_button" value="Seach hotel" name="Search" /></td>
+        <td><div id="loading" style="display:none"> <img src="~/Content/loading.gif" alt="please wait" /> Please wait.....</div></td>
+    </tr>
+</table>
+
+
+<table style="width:100%" id="results" >
+</table>
+
+
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "__AjaxAntiForgeryForm" }))
+{
+    @Html.AntiForgeryToken()
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/Application/setting.js"></script>
+<script src="~/Scripts/Application/Ajax_Request_Response.js"></script>
+<script src="~/Scripts/Application/hotel.js"></script>
